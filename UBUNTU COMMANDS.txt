@@ -1,0 +1,101 @@
+UBUNTU COMMANDS
+
+Here’s a list of **basic Ubuntu commands** commonly used for navigation, file management, system control, and more. These work on most Debian-based Linux distributions as well.
+
+---
+
+### 🔹 **System Info & Management**
+
+* `uname -a` → Show system information
+* `hostname` → Display system hostname
+* `top` / `htop` → Display running processes
+* `uptime` → Show system uptime
+* `df -h` → Disk usage in human-readable format
+* `free -h` → Show memory usage
+
+---
+
+### 🔹 **User Management**
+
+* `whoami` → Current logged-in user
+* `id` → Show user ID and group
+* `adduser <username>` → Add new user
+* `passwd <username>` → Set user password
+* `su <username>` → Switch user
+* `sudo <command>` → Run command with root privileges
+
+---
+
+### 🔹 **File & Directory Commands**
+
+* `pwd` → Print current directory
+* `ls` → List files
+
+  * `ls -l` → Long format
+  * `ls -a` → Show hidden files
+* `cd <path>` → Change directory
+* `mkdir <dir>` → Create directory
+* `rmdir <dir>` → Remove empty directory
+* `rm <file>` → Delete file
+
+  * `rm -r <dir>` → Delete folder and contents
+* `cp <src> <dest>` → Copy file/directory
+* `mv <src> <dest>` → Move or rename
+
+---
+
+### 🔹 **File Viewing & Editing**
+
+* `cat <file>` → View file content
+* `less <file>` / `more <file>` → Paginated view
+* `nano <file>` → Command-line text editor
+* `touch <file>` → Create empty file
+
+---
+
+### 🔹 **Package Management (APT)**
+
+* `sudo apt update` → Update package list
+* `sudo apt upgrade` → Upgrade installed packages
+* `sudo apt install <package>` → Install package
+* `sudo apt remove <package>` → Remove package
+* `sudo apt purge <package>` → Remove completely
+* `dpkg -l` → List installed packages
+
+---
+
+### 🔹 **Networking**
+
+* `ping <host>` → Check connectivity
+* `ifconfig` / `ip a` → View IP address (use `ip` for newer systems)
+* `netstat -tuln` / `ss -tuln` → Show listening ports
+* `curl <url>` → Fetch data from URL
+* `wget <url>` → Download from internet
+
+---
+
+### 🔹 **Permissions & Ownership**
+
+* `chmod <mode> <file>` → Change file permissions
+* `chown <user>:<group> <file>` → Change ownership
+
+---
+
+### 🔹 **Archiving & Compression**
+
+* `tar -cvf archive.tar <files>` → Create archive
+* `tar -xvf archive.tar` → Extract archive
+* `gzip <file>` → Compress file
+* `gunzip <file.gz>` → Decompress file
+
+---
+
+### 🔹 **Shutdown & Reboot**
+
+* `shutdown now` → Immediate shutdown
+* `reboot` → Restart system
+* `shutdown -h +10` → Shutdown in 10 minutes
+
+---
+
+Would you like this as a downloadable PDF or terminal cheat sheet?
