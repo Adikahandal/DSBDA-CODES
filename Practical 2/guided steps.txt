@@ -1,0 +1,2 @@
+1) check dependencies.
+2) put the relative path of the dataset in the read_csv
